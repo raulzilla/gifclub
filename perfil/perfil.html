@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Perfil - GifClub</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="perfil.css" />
+</head>
+
+<body>
+	<img class="imagem" src="../assets/imagens/gifclub.png" alt="Logo GifClub">
+	<h1 class="perfil"> RAULZILLA </h1>
+	<fieldset>
+		<legend><b>Perfil</b></legend>
+		<table>
+			<tr>
+				<td><img class="img" src="../assets/imagens/perfil.jpeg" alt="Sua Foto De Perfil"></td>
+			</tr>
+		</table>
+		<a class="li" href="../trocar-senha/troca-senha.html">Trocar Senha Do Perfil</a><br><br>
+		<a class="li" href="../trocar-foto/trocar-foto.html">Trocar Foto Do Perfil</a>
+		<p>
+			<label for="name"><b>Nome:</b></label>
+			<input readonly value="Raul De Oliveira" id="name" required>
+		</p>
+		<p>
+			<label class="idade" for="age"><b>Idade:</b></label>
+			<input readonly value="18 anos" id="age" required>
+		</p>
+		<p>
+			<label class="cidade" for="local"><b>Cidade:</b></label>
+			<input readonly value="São Paulo" id="local" required>
+		</p>
+		<button onclick="location.href='../home/homegc.html'">ALTERAR</button>
+		<a class="li" href="../home/homegc.html">Cancelar</a>
+	</fieldset>
+</body>
+
+</html>

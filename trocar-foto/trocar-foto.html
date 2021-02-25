@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Trocar Foto - GifClub</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="trocar-foto.css" />
+</head>
+
+<body>
+	<img class="logo" src="../assets/imagens/gifclub.png" alt="Logo GifClub">
+	<fieldset>
+		<legend>SUA FOTO</legend>
+		<img src="../assets/imagens/perfil.jpeg" alt="foto de perfil">
+		<table>
+			<tr>
+				<td>
+					<label for="nenhum-arquivo-selecionado"><b>Coloque aqui sua imagem de perfil:</b></label>
+					<input type="file" accept="image/*" id="nenhum-arquivo-selecionado">
+				</td>
+			</tr>
+		</table>
+		<button onclick="location.href='../perfil/perfil.html'">Confirmar Troca De Foto</button>
+		<a class="voltar" href="../perfil/perfil.html">Cancelar</a>
+	</fieldset>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.menu{
+    font-family: "fonte2";
+	font-size: 3em;
+    text-align: center;
+	color:rgb(255, 255, 255);
+	text-shadow: 0 0 16px rgb(0, 0, 0);
+}
+.imagem {
+    text-align: center;
+}
+.imagem img{
+    width: 360px;
+	height: 360px;
+}
+.imagemperfil{
+    width: 65px;
+	height: 65px;
+    border: 4px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.lista{
+    font-family: "fonte2";
+	font-size: 1.4em;
+	color:rgb(255, 255, 255);	
+}
+.links{
+    font-family: "fonte2";
+	font-size: 1.4em;
+	color:rgb(255, 255, 255);	
+}   
+body{
+	background-image: linear-gradient(95deg, rgb(0, 0, 0), rgb(84, 11, 117));
+    width: 100%;
+}
+@font-face {
+	font-family: "fonte2";
+    src: url("../../fontes/urusans-regular-webfont.woff2") format('woff2'),
+         url("../../fontes/urusans-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+fieldset{
+    font-family: "fonte2";
+	font-size: 1.4em;
+	color:rgb(255, 255, 255);	
+}
+.imagem2{
+    border: 4px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.alan{
+    width: 700px;
+    border: 4px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.titulos{
+    font-family:"Nunito", sans-serif !important; 
+}
